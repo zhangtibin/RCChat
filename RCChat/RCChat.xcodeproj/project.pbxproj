@@ -1,0 +1,1050 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AC507CF1F6683AE004A6911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC507CE1F6683AE004A6911 /* main.m */; };
+		9AC507D21F6683AE004A6911 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC507D11F6683AE004A6911 /* AppDelegate.m */; };
+		9AC507D51F6683AE004A6911 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC507D41F6683AE004A6911 /* ViewController.m */; };
+		9AC507D81F6683AF004A6911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC507D61F6683AF004A6911 /* Main.storyboard */; };
+		9AC507DA1F6683AF004A6911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC507D91F6683AF004A6911 /* Assets.xcassets */; };
+		9AC507DD1F6683AF004A6911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC507DB1F6683AF004A6911 /* LaunchScreen.storyboard */; };
+		9AC507E81F6683AF004A6911 /* RCChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC507E71F6683AF004A6911 /* RCChatTests.m */; };
+		9AC507F31F6683AF004A6911 /* RCChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC507F21F6683AF004A6911 /* RCChatUITests.m */; };
+		9AC508391F668484004A6911 /* Emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AC5082E1F668484004A6911 /* Emoji.plist */; };
+		9AC5083A1F668484004A6911 /* RongCloudKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AC5082F1F668484004A6911 /* RongCloudKit.strings */; };
+		9AC5083B1F668484004A6911 /* RongCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9AC508311F668484004A6911 /* RongCloud.bundle */; };
+		9AC5083C1F668484004A6911 /* RongIMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC508321F668484004A6911 /* RongIMKit.framework */; };
+		9AC5083D1F668484004A6911 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC508351F668484004A6911 /* libopencore-amrnb.a */; };
+		9AC5083E1F668484004A6911 /* RCConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AC508361F668484004A6911 /* RCConfig.plist */; };
+		9AC5083F1F668484004A6911 /* RongIMLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC508371F668484004A6911 /* RongIMLib.framework */; };
+		9AC508401F668484004A6911 /* release_notes_ios.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9AC508381F668484004A6911 /* release_notes_ios.txt */; };
+		9AC508431F6684DE004A6911 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC508421F6684DE004A6911 /* libsqlite3.tbd */; };
+		9AC508451F6684EE004A6911 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC508441F6684EE004A6911 /* libstdc++.tbd */; };
+		9AC508471F66850D004A6911 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC508461F66850D004A6911 /* libz.tbd */; };
+		9AC508591F668ACC004A6911 /* RCAccountMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC508581F668ACC004A6911 /* RCAccountMainViewController.m */; };
+		9AC5085C1F668AE3004A6911 /* RCHomePageMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5085B1F668AE3004A6911 /* RCHomePageMainViewController.m */; };
+		9AC5085F1F668B01004A6911 /* RCDiscoverMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5085E1F668B01004A6911 /* RCDiscoverMainViewController.m */; };
+		9AC508621F668C09004A6911 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC508611F668C09004A6911 /* BaseViewController.m */; };
+		9AC508651F668C29004A6911 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC508641F668C29004A6911 /* BaseTabBarController.m */; };
+		9AC508681F668C46004A6911 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC508671F668C46004A6911 /* BaseTableViewController.m */; };
+		9AC5086B1F668C61004A6911 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5086A1F668C61004A6911 /* BaseNavigationController.m */; };
+		9AC5086E1F668C9A004A6911 /* BaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5086D1F668C9A004A6911 /* BaseCollectionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AC507E41F6683AF004A6911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AC507C21F6683AE004A6911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AC507C91F6683AE004A6911;
+			remoteInfo = RCChat;
+		};
+		9AC507EF1F6683AF004A6911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AC507C21F6683AE004A6911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AC507C91F6683AE004A6911;
+			remoteInfo = RCChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AC507CA1F6683AE004A6911 /* RCChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC507CE1F6683AE004A6911 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AC507D01F6683AE004A6911 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AC507D11F6683AE004A6911 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AC507D31F6683AE004A6911 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9AC507D41F6683AE004A6911 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AC507D71F6683AF004A6911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AC507D91F6683AF004A6911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AC507DC1F6683AF004A6911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AC507DE1F6683AF004A6911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC507E31F6683AF004A6911 /* RCChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC507E71F6683AF004A6911 /* RCChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCChatTests.m; sourceTree = "<group>"; };
+		9AC507E91F6683AF004A6911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC507EE1F6683AF004A6911 /* RCChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC507F21F6683AF004A6911 /* RCChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCChatUITests.m; sourceTree = "<group>"; };
+		9AC507F41F6683AF004A6911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC5082E1F668484004A6911 /* Emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emoji.plist; sourceTree = "<group>"; };
+		9AC508301F668484004A6911 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/RongCloudKit.strings; sourceTree = "<group>"; };
+		9AC508311F668484004A6911 /* RongCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RongCloud.bundle; sourceTree = "<group>"; };
+		9AC508321F668484004A6911 /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongIMKit.framework; sourceTree = "<group>"; };
+		9AC508331F668484004A6911 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/RongCloudKit.strings"; sourceTree = "<group>"; };
+		9AC508351F668484004A6911 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		9AC508361F668484004A6911 /* RCConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RCConfig.plist; sourceTree = "<group>"; };
+		9AC508371F668484004A6911 /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongIMLib.framework; sourceTree = "<group>"; };
+		9AC508381F668484004A6911 /* release_notes_ios.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes_ios.txt; sourceTree = "<group>"; };
+		9AC508421F6684DE004A6911 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9AC508441F6684EE004A6911 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		9AC508461F66850D004A6911 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9AC508571F668ACC004A6911 /* RCAccountMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCAccountMainViewController.h; sourceTree = "<group>"; };
+		9AC508581F668ACC004A6911 /* RCAccountMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCAccountMainViewController.m; sourceTree = "<group>"; };
+		9AC5085A1F668AE3004A6911 /* RCHomePageMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCHomePageMainViewController.h; sourceTree = "<group>"; };
+		9AC5085B1F668AE3004A6911 /* RCHomePageMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCHomePageMainViewController.m; sourceTree = "<group>"; };
+		9AC5085D1F668B01004A6911 /* RCDiscoverMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDiscoverMainViewController.h; sourceTree = "<group>"; };
+		9AC5085E1F668B01004A6911 /* RCDiscoverMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDiscoverMainViewController.m; sourceTree = "<group>"; };
+		9AC508601F668C09004A6911 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		9AC508611F668C09004A6911 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		9AC508631F668C28004A6911 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		9AC508641F668C29004A6911 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		9AC508661F668C46004A6911 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		9AC508671F668C46004A6911 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		9AC508691F668C61004A6911 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		9AC5086A1F668C61004A6911 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		9AC5086C1F668C9A004A6911 /* BaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewController.h; sourceTree = "<group>"; };
+		9AC5086D1F668C9A004A6911 /* BaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AC507C71F6683AE004A6911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC508471F66850D004A6911 /* libz.tbd in Frameworks */,
+				9AC508451F6684EE004A6911 /* libstdc++.tbd in Frameworks */,
+				9AC508431F6684DE004A6911 /* libsqlite3.tbd in Frameworks */,
+				9AC5083C1F668484004A6911 /* RongIMKit.framework in Frameworks */,
+				9AC5083F1F668484004A6911 /* RongIMLib.framework in Frameworks */,
+				9AC5083D1F668484004A6911 /* libopencore-amrnb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC507E01F6683AF004A6911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC507EB1F6683AF004A6911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AC507C11F6683AE004A6911 = {
+			isa = PBXGroup;
+			children = (
+				9AC507CC1F6683AE004A6911 /* RCChat */,
+				9AC507E61F6683AF004A6911 /* RCChatTests */,
+				9AC507F11F6683AF004A6911 /* RCChatUITests */,
+				9AC507CB1F6683AE004A6911 /* Products */,
+				9AC508411F6684DE004A6911 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AC507CB1F6683AE004A6911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC507CA1F6683AE004A6911 /* RCChat.app */,
+				9AC507E31F6683AF004A6911 /* RCChatTests.xctest */,
+				9AC507EE1F6683AF004A6911 /* RCChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AC507CC1F6683AE004A6911 /* RCChat */ = {
+			isa = PBXGroup;
+			children = (
+				9AC507D01F6683AE004A6911 /* AppDelegate.h */,
+				9AC507D11F6683AE004A6911 /* AppDelegate.m */,
+				9AC507D31F6683AE004A6911 /* ViewController.h */,
+				9AC507D41F6683AE004A6911 /* ViewController.m */,
+				9AC5082B1F668445004A6911 /* Application */,
+				9AC508131F668445004A6911 /* UIClass */,
+				9AC508001F668445004A6911 /* ZTBKit */,
+				9AC508051F668445004A6911 /* Communication */,
+				9AC508091F668445004A6911 /* Resources */,
+				9AC508271F668445004A6911 /* Service */,
+				9AC508281F668445004A6911 /* Handler */,
+				9AC508291F668445004A6911 /* Storage */,
+				9AC5082A1F668445004A6911 /* ThirdPart */,
+				9AC507D61F6683AF004A6911 /* Main.storyboard */,
+				9AC507D91F6683AF004A6911 /* Assets.xcassets */,
+				9AC507DB1F6683AF004A6911 /* LaunchScreen.storyboard */,
+				9AC507DE1F6683AF004A6911 /* Info.plist */,
+				9AC507CD1F6683AE004A6911 /* Supporting Files */,
+			);
+			path = RCChat;
+			sourceTree = "<group>";
+		};
+		9AC507CD1F6683AE004A6911 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AC507CE1F6683AE004A6911 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AC507E61F6683AF004A6911 /* RCChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AC507E71F6683AF004A6911 /* RCChatTests.m */,
+				9AC507E91F6683AF004A6911 /* Info.plist */,
+			);
+			path = RCChatTests;
+			sourceTree = "<group>";
+		};
+		9AC507F11F6683AF004A6911 /* RCChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AC507F21F6683AF004A6911 /* RCChatUITests.m */,
+				9AC507F41F6683AF004A6911 /* Info.plist */,
+			);
+			path = RCChatUITests;
+			sourceTree = "<group>";
+		};
+		9AC508001F668445004A6911 /* ZTBKit */ = {
+			isa = PBXGroup;
+			children = (
+				9AC508011F668445004A6911 /* Category */,
+				9AC508021F668445004A6911 /* Config */,
+				9AC508031F668445004A6911 /* Extension */,
+				9AC508041F668445004A6911 /* Tools */,
+			);
+			path = ZTBKit;
+			sourceTree = "<group>";
+		};
+		9AC508011F668445004A6911 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9AC508021F668445004A6911 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		9AC508031F668445004A6911 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9AC508041F668445004A6911 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		9AC508051F668445004A6911 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				9AC508061F668445004A6911 /* Handler */,
+				9AC508071F668445004A6911 /* Network */,
+				9AC508081F668445004A6911 /* Service */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		9AC508061F668445004A6911 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		9AC508071F668445004A6911 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9AC508081F668445004A6911 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9AC508091F668445004A6911 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9AC5080A1F668445004A6911 /* Images */,
+				9AC5080F1F668445004A6911 /* Init */,
+				9AC508101F668445004A6911 /* Other */,
+				9AC508111F668445004A6911 /* Plist */,
+				9AC508121F668445004A6911 /* Sound */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9AC5080A1F668445004A6911 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9AC5080B1F668445004A6911 /* AppMain */,
+				9AC5080C1F668445004A6911 /* Business */,
+				9AC5080D1F668445004A6911 /* Common */,
+				9AC5080E1F668445004A6911 /* Other */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9AC5080B1F668445004A6911 /* AppMain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppMain;
+			sourceTree = "<group>";
+		};
+		9AC5080C1F668445004A6911 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		9AC5080D1F668445004A6911 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9AC5080E1F668445004A6911 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9AC5080F1F668445004A6911 /* Init */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Init;
+			sourceTree = "<group>";
+		};
+		9AC508101F668445004A6911 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9AC508111F668445004A6911 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		9AC508121F668445004A6911 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		9AC508131F668445004A6911 /* UIClass */ = {
+			isa = PBXGroup;
+			children = (
+				9AC508141F668445004A6911 /* Controller */,
+				9AC508191F668445004A6911 /* Model */,
+				9AC5081F1F668445004A6911 /* View */,
+				9AC508261F668445004A6911 /* ViewModel */,
+			);
+			path = UIClass;
+			sourceTree = "<group>";
+		};
+		9AC508141F668445004A6911 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AC508151F668445004A6911 /* Base */,
+				9AC508161F668445004A6911 /* Business */,
+				9AC508171F668445004A6911 /* Common */,
+				9AC508181F668445004A6911 /* Custom */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9AC508151F668445004A6911 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9AC508601F668C09004A6911 /* BaseViewController.h */,
+				9AC508611F668C09004A6911 /* BaseViewController.m */,
+				9AC508631F668C28004A6911 /* BaseTabBarController.h */,
+				9AC508641F668C29004A6911 /* BaseTabBarController.m */,
+				9AC508661F668C46004A6911 /* BaseTableViewController.h */,
+				9AC508671F668C46004A6911 /* BaseTableViewController.m */,
+				9AC508691F668C61004A6911 /* BaseNavigationController.h */,
+				9AC5086A1F668C61004A6911 /* BaseNavigationController.m */,
+				9AC5086C1F668C9A004A6911 /* BaseCollectionViewController.h */,
+				9AC5086D1F668C9A004A6911 /* BaseCollectionViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9AC508161F668445004A6911 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		9AC508171F668445004A6911 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9AC508571F668ACC004A6911 /* RCAccountMainViewController.h */,
+				9AC508581F668ACC004A6911 /* RCAccountMainViewController.m */,
+				9AC5085D1F668B01004A6911 /* RCDiscoverMainViewController.h */,
+				9AC5085E1F668B01004A6911 /* RCDiscoverMainViewController.m */,
+				9AC5085A1F668AE3004A6911 /* RCHomePageMainViewController.h */,
+				9AC5085B1F668AE3004A6911 /* RCHomePageMainViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9AC508181F668445004A6911 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		9AC508191F668445004A6911 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AC5081A1F668445004A6911 /* Base */,
+				9AC5081B1F668445004A6911 /* Handler */,
+				9AC5081C1F668445004A6911 /* Info */,
+				9AC5081D1F668445004A6911 /* Manager */,
+				9AC5081E1F668445004A6911 /* Service */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AC5081A1F668445004A6911 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9AC5081B1F668445004A6911 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		9AC5081C1F668445004A6911 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		9AC5081D1F668445004A6911 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		9AC5081E1F668445004A6911 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9AC5081F1F668445004A6911 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AC508201F668445004A6911 /* Base */,
+				9AC508211F668445004A6911 /* Business */,
+				9AC508221F668445004A6911 /* Cell */,
+				9AC508231F668445004A6911 /* Common */,
+				9AC508241F668445004A6911 /* Custom */,
+				9AC508251F668445004A6911 /* Widgets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9AC508201F668445004A6911 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9AC508211F668445004A6911 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		9AC508221F668445004A6911 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9AC508231F668445004A6911 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9AC508241F668445004A6911 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		9AC508251F668445004A6911 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		9AC508261F668445004A6911 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9AC508271F668445004A6911 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9AC508281F668445004A6911 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		9AC508291F668445004A6911 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		9AC5082A1F668445004A6911 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				9AC5082C1F668484004A6911 /* RongCloud */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		9AC5082B1F668445004A6911 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9AC5082C1F668484004A6911 /* RongCloud */ = {
+			isa = PBXGroup;
+			children = (
+				9AC5082D1F668484004A6911 /* IMKit */,
+				9AC508341F668484004A6911 /* IMLib */,
+				9AC508381F668484004A6911 /* release_notes_ios.txt */,
+			);
+			path = RongCloud;
+			sourceTree = "<group>";
+		};
+		9AC5082D1F668484004A6911 /* IMKit */ = {
+			isa = PBXGroup;
+			children = (
+				9AC5082E1F668484004A6911 /* Emoji.plist */,
+				9AC5082F1F668484004A6911 /* RongCloudKit.strings */,
+				9AC508311F668484004A6911 /* RongCloud.bundle */,
+				9AC508321F668484004A6911 /* RongIMKit.framework */,
+			);
+			path = IMKit;
+			sourceTree = "<group>";
+		};
+		9AC508341F668484004A6911 /* IMLib */ = {
+			isa = PBXGroup;
+			children = (
+				9AC508351F668484004A6911 /* libopencore-amrnb.a */,
+				9AC508361F668484004A6911 /* RCConfig.plist */,
+				9AC508371F668484004A6911 /* RongIMLib.framework */,
+			);
+			path = IMLib;
+			sourceTree = "<group>";
+		};
+		9AC508411F6684DE004A6911 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AC508461F66850D004A6911 /* libz.tbd */,
+				9AC508441F6684EE004A6911 /* libstdc++.tbd */,
+				9AC508421F6684DE004A6911 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AC507C91F6683AE004A6911 /* RCChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC507F71F6683AF004A6911 /* Build configuration list for PBXNativeTarget "RCChat" */;
+			buildPhases = (
+				9AC507C61F6683AE004A6911 /* Sources */,
+				9AC507C71F6683AE004A6911 /* Frameworks */,
+				9AC507C81F6683AE004A6911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCChat;
+			productName = RCChat;
+			productReference = 9AC507CA1F6683AE004A6911 /* RCChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AC507E21F6683AF004A6911 /* RCChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC507FA1F6683AF004A6911 /* Build configuration list for PBXNativeTarget "RCChatTests" */;
+			buildPhases = (
+				9AC507DF1F6683AF004A6911 /* Sources */,
+				9AC507E01F6683AF004A6911 /* Frameworks */,
+				9AC507E11F6683AF004A6911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AC507E51F6683AF004A6911 /* PBXTargetDependency */,
+			);
+			name = RCChatTests;
+			productName = RCChatTests;
+			productReference = 9AC507E31F6683AF004A6911 /* RCChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AC507ED1F6683AF004A6911 /* RCChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC507FD1F6683AF004A6911 /* Build configuration list for PBXNativeTarget "RCChatUITests" */;
+			buildPhases = (
+				9AC507EA1F6683AF004A6911 /* Sources */,
+				9AC507EB1F6683AF004A6911 /* Frameworks */,
+				9AC507EC1F6683AF004A6911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AC507F01F6683AF004A6911 /* PBXTargetDependency */,
+			);
+			name = RCChatUITests;
+			productName = RCChatUITests;
+			productReference = 9AC507EE1F6683AF004A6911 /* RCChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AC507C21F6683AE004A6911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Dreams of Ideal World Co., Ltd.";
+				TargetAttributes = {
+					9AC507C91F6683AE004A6911 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F3L25LC3ZV;
+						ProvisioningStyle = Automatic;
+					};
+					9AC507E21F6683AF004A6911 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F3L25LC3ZV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9AC507C91F6683AE004A6911;
+					};
+					9AC507ED1F6683AF004A6911 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F3L25LC3ZV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9AC507C91F6683AE004A6911;
+					};
+				};
+			};
+			buildConfigurationList = 9AC507C51F6683AE004A6911 /* Build configuration list for PBXProject "RCChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 9AC507C11F6683AE004A6911;
+			productRefGroup = 9AC507CB1F6683AE004A6911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AC507C91F6683AE004A6911 /* RCChat */,
+				9AC507E21F6683AF004A6911 /* RCChatTests */,
+				9AC507ED1F6683AF004A6911 /* RCChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AC507C81F6683AE004A6911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC507DD1F6683AF004A6911 /* LaunchScreen.storyboard in Resources */,
+				9AC508391F668484004A6911 /* Emoji.plist in Resources */,
+				9AC507DA1F6683AF004A6911 /* Assets.xcassets in Resources */,
+				9AC5083A1F668484004A6911 /* RongCloudKit.strings in Resources */,
+				9AC507D81F6683AF004A6911 /* Main.storyboard in Resources */,
+				9AC5083E1F668484004A6911 /* RCConfig.plist in Resources */,
+				9AC508401F668484004A6911 /* release_notes_ios.txt in Resources */,
+				9AC5083B1F668484004A6911 /* RongCloud.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC507E11F6683AF004A6911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC507EC1F6683AF004A6911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AC507C61F6683AE004A6911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC508621F668C09004A6911 /* BaseViewController.m in Sources */,
+				9AC5085F1F668B01004A6911 /* RCDiscoverMainViewController.m in Sources */,
+				9AC5086E1F668C9A004A6911 /* BaseCollectionViewController.m in Sources */,
+				9AC508591F668ACC004A6911 /* RCAccountMainViewController.m in Sources */,
+				9AC508651F668C29004A6911 /* BaseTabBarController.m in Sources */,
+				9AC5085C1F668AE3004A6911 /* RCHomePageMainViewController.m in Sources */,
+				9AC507D51F6683AE004A6911 /* ViewController.m in Sources */,
+				9AC507D21F6683AE004A6911 /* AppDelegate.m in Sources */,
+				9AC5086B1F668C61004A6911 /* BaseNavigationController.m in Sources */,
+				9AC508681F668C46004A6911 /* BaseTableViewController.m in Sources */,
+				9AC507CF1F6683AE004A6911 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC507DF1F6683AF004A6911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC507E81F6683AF004A6911 /* RCChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC507EA1F6683AF004A6911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC507F31F6683AF004A6911 /* RCChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AC507E51F6683AF004A6911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AC507C91F6683AE004A6911 /* RCChat */;
+			targetProxy = 9AC507E41F6683AF004A6911 /* PBXContainerItemProxy */;
+		};
+		9AC507F01F6683AF004A6911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AC507C91F6683AE004A6911 /* RCChat */;
+			targetProxy = 9AC507EF1F6683AF004A6911 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AC507D61F6683AF004A6911 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC507D71F6683AF004A6911 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AC507DB1F6683AF004A6911 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC507DC1F6683AF004A6911 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9AC5082F1F668484004A6911 /* RongCloudKit.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC508301F668484004A6911 /* en */,
+				9AC508331F668484004A6911 /* zh-Hans */,
+			);
+			name = RongCloudKit.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AC507F51F6683AF004A6911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AC507F61F6683AF004A6911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AC507F81F6683AF004A6911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F3L25LC3ZV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCChat/ThirdPart/RongCloud/IMKit",
+					"$(PROJECT_DIR)/RCChat/ThirdPart/RongCloud/IMLib",
+				);
+				INFOPLIST_FILE = RCChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCChat/ThirdPart/RongCloud/IMLib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueshan.app.RCChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AC507F91F6683AF004A6911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F3L25LC3ZV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCChat/ThirdPart/RongCloud/IMKit",
+					"$(PROJECT_DIR)/RCChat/ThirdPart/RongCloud/IMLib",
+				);
+				INFOPLIST_FILE = RCChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCChat/ThirdPart/RongCloud/IMLib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueshan.app.RCChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AC507FB1F6683AF004A6911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F3L25LC3ZV;
+				INFOPLIST_FILE = RCChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueshan.app.RCChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCChat.app/RCChat";
+			};
+			name = Debug;
+		};
+		9AC507FC1F6683AF004A6911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F3L25LC3ZV;
+				INFOPLIST_FILE = RCChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueshan.app.RCChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCChat.app/RCChat";
+			};
+			name = Release;
+		};
+		9AC507FE1F6683AF004A6911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F3L25LC3ZV;
+				INFOPLIST_FILE = RCChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueshan.app.RCChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RCChat;
+			};
+			name = Debug;
+		};
+		9AC507FF1F6683AF004A6911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F3L25LC3ZV;
+				INFOPLIST_FILE = RCChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueshan.app.RCChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RCChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AC507C51F6683AE004A6911 /* Build configuration list for PBXProject "RCChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC507F51F6683AF004A6911 /* Debug */,
+				9AC507F61F6683AF004A6911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC507F71F6683AF004A6911 /* Build configuration list for PBXNativeTarget "RCChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC507F81F6683AF004A6911 /* Debug */,
+				9AC507F91F6683AF004A6911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AC507FA1F6683AF004A6911 /* Build configuration list for PBXNativeTarget "RCChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC507FB1F6683AF004A6911 /* Debug */,
+				9AC507FC1F6683AF004A6911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AC507FD1F6683AF004A6911 /* Build configuration list for PBXNativeTarget "RCChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC507FE1F6683AF004A6911 /* Debug */,
+				9AC507FF1F6683AF004A6911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AC507C21F6683AE004A6911 /* Project object */;
+}
