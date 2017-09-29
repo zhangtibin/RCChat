@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		298E4D632B1A57949BF9F281 /* libPods-RCChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 109EBFD5F51B0857D5A7B50F /* libPods-RCChat.a */; };
 		9AC507CF1F6683AE004A6911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC507CE1F6683AE004A6911 /* main.m */; };
 		9AC507D21F6683AE004A6911 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC507D11F6683AE004A6911 /* AppDelegate.m */; };
 		9AC507D51F6683AE004A6911 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC507D41F6683AE004A6911 /* ViewController.m */; };
@@ -54,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		109EBFD5F51B0857D5A7B50F /* libPods-RCChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		365F1AA232E9DAE2762F49DB /* Pods-RCChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCChat/Pods-RCChat.debug.xcconfig"; sourceTree = "<group>"; };
 		9AC507CA1F6683AE004A6911 /* RCChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC507CE1F6683AE004A6911 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AC507D01F6683AE004A6911 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +101,7 @@
 		9AC5086A1F668C61004A6911 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		9AC5086C1F668C9A004A6911 /* BaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewController.h; sourceTree = "<group>"; };
 		9AC5086D1F668C9A004A6911 /* BaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewController.m; sourceTree = "<group>"; };
+		BE6F585AB3F6FD58C705F905 /* Pods-RCChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCChat/Pods-RCChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				9AC5083C1F668484004A6911 /* RongIMKit.framework in Frameworks */,
 				9AC5083F1F668484004A6911 /* RongIMLib.framework in Frameworks */,
 				9AC5083D1F668484004A6911 /* libopencore-amrnb.a in Frameworks */,
+				298E4D632B1A57949BF9F281 /* libPods-RCChat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +144,7 @@
 				9AC507F11F6683AF004A6911 /* RCChatUITests */,
 				9AC507CB1F6683AE004A6911 /* Products */,
 				9AC508411F6684DE004A6911 /* Frameworks */,
+				E1A28619A715C6D1726589F3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -600,8 +606,18 @@
 				9AC508461F66850D004A6911 /* libz.tbd */,
 				9AC508441F6684EE004A6911 /* libstdc++.tbd */,
 				9AC508421F6684DE004A6911 /* libsqlite3.tbd */,
+				109EBFD5F51B0857D5A7B50F /* libPods-RCChat.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1A28619A715C6D1726589F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				365F1AA232E9DAE2762F49DB /* Pods-RCChat.debug.xcconfig */,
+				BE6F585AB3F6FD58C705F905 /* Pods-RCChat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -611,9 +627,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AC507F71F6683AF004A6911 /* Build configuration list for PBXNativeTarget "RCChat" */;
 			buildPhases = (
+				65AF4CE1A95C4CD758FAF617 /* [CP] Check Pods Manifest.lock */,
 				9AC507C61F6683AE004A6911 /* Sources */,
 				9AC507C71F6683AE004A6911 /* Frameworks */,
 				9AC507C81F6683AE004A6911 /* Resources */,
+				130A627F62D1F87BD0FC1006 /* [CP] Embed Pods Frameworks */,
+				4C880F4E770A263B4065530A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -740,6 +759,64 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		130A627F62D1F87BD0FC1006 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCChat/Pods-RCChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C880F4E770A263B4065530A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RCChat/Pods-RCChat-resources.sh",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RongCloud.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/en.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/zh-Hans.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/Emoji.plist",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCChat/Pods-RCChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65AF4CE1A95C4CD758FAF617 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RCChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9AC507C61F6683AE004A6911 /* Sources */ = {
@@ -914,6 +991,7 @@
 		};
 		9AC507F81F6683AF004A6911 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365F1AA232E9DAE2762F49DB /* Pods-RCChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F3L25LC3ZV;
@@ -937,6 +1015,7 @@
 		};
 		9AC507F91F6683AF004A6911 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6F585AB3F6FD58C705F905 /* Pods-RCChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F3L25LC3ZV;
